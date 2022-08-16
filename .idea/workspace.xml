@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828bdb65-597f-4db6-9bee-b097323c9f26" name="Changes" comment="update files" />
+    <list default="true" id="828bdb65-597f-4db6-9bee-b097323c9f26" name="Changes" comment="update files">
+      <change afterPath="$PROJECT_DIR$/media/imgs/image1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babys/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/babys/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babys/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/babys/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/babys/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +30,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/v_vhengyuwu/PycharmProjects/babys"
+    "last_opened_file_path": "C:/Users/v_vhengyuwu/PycharmProjects/babys/media/imgs"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\v_vhengyuwu\PycharmProjects\babys\media\imgs" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="babys" type="Python.DjangoServer" factoryName="Django server">
       <module name="babys" />
@@ -34,14 +45,15 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="babys.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python310\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
+      <option name="port" value="8001" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -62,6 +74,7 @@
       <updated>1660534043879</updated>
       <workItem from="1660534045568" duration="97000" />
       <workItem from="1660534193809" duration="1742000" />
+      <workItem from="1660544105645" duration="2351000" />
     </task>
     <task id="LOCAL-00001" summary="update files">
       <created>1660543922021</created>
