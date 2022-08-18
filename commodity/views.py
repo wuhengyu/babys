@@ -3,7 +3,7 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def commodityView(request):
-    return HttpResponse('Hello World')
+    return HttpResponse('commodityView Hello World')
 
 
 def detailView(request):

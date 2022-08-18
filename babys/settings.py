@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'index',
     'commodity',
     'shopper'
-    'mydefined',
+    # 'mydefined',
 ]
 
 MIDDLEWARE = [
@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'babys',
         'USER': 'root',
         'PASSWORD': '123456',
-        'HOST': '192.168.195.141',
+        'HOST': '192.168.195.142',
         'PORT': '3306',
 
     }

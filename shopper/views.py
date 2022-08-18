@@ -15,5 +15,5 @@ def logoutView(request):
     return HttpResponse('Hello World')
 
 
-def shopcart(request):
+def shopcartView(request):
     return HttpResponse('Hello World')

@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828bdb65-597f-4db6-9bee-b097323c9f26" name="Changes" comment="views">
-      <change afterPath="$PROJECT_DIR$/commodity/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopper/urls.py" afterDir="false" />
+    <list default="true" id="828bdb65-597f-4db6-9bee-b097323c9f26" name="Changes" comment="router">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babys/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/babys/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/babys/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commodity/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/commodity/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commodity/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/commodity/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopper/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopper/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopper/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopper/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,6 +26,17 @@
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -41,7 +60,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/v_vhengyuwu/PycharmProjects/babys/static/img"
+    "last_opened_file_path": "C:/Users/v_vhengyuwu/PycharmProjects/babys/static/img",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,7 +108,7 @@
       <workItem from="1660534045568" duration="97000" />
       <workItem from="1660534193809" duration="1742000" />
       <workItem from="1660544105645" duration="5666000" />
-      <workItem from="1660651632834" duration="10268000" />
+      <workItem from="1660651632834" duration="22423000" />
     </task>
     <task id="LOCAL-00001" summary="update files">
       <created>1660543922021</created>
@@ -139,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660734732181</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="router">
+      <created>1660736499023</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660736499023</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +188,7 @@
     <MESSAGE value="update files" />
     <MESSAGE value="make models" />
     <MESSAGE value="views" />
-    <option name="LAST_COMMIT_MESSAGE" value="views" />
+    <MESSAGE value="router" />
+    <option name="LAST_COMMIT_MESSAGE" value="router" />
   </component>
 </project>

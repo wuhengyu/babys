@@ -15,10 +15,14 @@ Including another URLconf
 """
 from django.conf import settings
 from django.contrib import admin
-from django.urls import path, re_path
+from django.urls import path, re_path, include
 from django.views.static import serve
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('commodity', include(('commodity.urls', 'commodity'), namespace='commodity')),
+    path('', include(('index.urls', 'index'), namespace='index')),
+    path('shopper/', include(('shopper.urls', 'shopper'), namespace='shopper')),
+
     re_path('media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT}, name='media')
 ]

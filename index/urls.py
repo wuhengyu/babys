@@ -4,3 +4,9 @@
 # @File    : urls.py
 # @License : (C)Copyright Walter
 # @Desc    :
+from django.urls import path
+from .views import *
+
+urlpatterns = [
+    path('', indexView, name='index'),
+]
