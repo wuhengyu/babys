@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="828bdb65-597f-4db6-9bee-b097323c9f26" name="Changes" comment="router">
+    <list default="true" id="828bdb65-597f-4db6-9bee-b097323c9f26" name="Changes" comment="views update">
+      <change afterPath="$PROJECT_DIR$/static/img/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html.backup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/babys/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/babys/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/babys/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commodity/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/commodity/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commodity/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/commodity/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/index/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopper/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopper/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopper/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopper/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +60,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/v_vhengyuwu/PycharmProjects/babys/static/img",
+    "last_opened_file_path": "C:/Users/v_vhengyuwu/PycharmProjects/babys/media",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\v_vhengyuwu\PycharmProjects\babys\media" />
+      <recent name="C:\Users\v_vhengyuwu\PycharmProjects\babys\templates" />
       <recent name="C:\Users\v_vhengyuwu\PycharmProjects\babys\static\img" />
       <recent name="C:\Users\v_vhengyuwu\PycharmProjects\babys\static" />
       <recent name="C:\Users\v_vhengyuwu\PycharmProjects\babys\media\imgs" />
@@ -108,7 +110,8 @@
       <workItem from="1660534045568" duration="97000" />
       <workItem from="1660534193809" duration="1742000" />
       <workItem from="1660544105645" duration="5666000" />
-      <workItem from="1660651632834" duration="22423000" />
+      <workItem from="1660651632834" duration="25442000" />
+      <workItem from="1660892431663" duration="3052000" />
     </task>
     <task id="LOCAL-00001" summary="update files">
       <created>1660543922021</created>
@@ -166,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660736499023</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="views update">
+      <created>1660825473988</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660825473988</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +199,7 @@
     <MESSAGE value="make models" />
     <MESSAGE value="views" />
     <MESSAGE value="router" />
-    <option name="LAST_COMMIT_MESSAGE" value="router" />
+    <MESSAGE value="views update" />
+    <option name="LAST_COMMIT_MESSAGE" value="views update" />
   </component>
 </project>
