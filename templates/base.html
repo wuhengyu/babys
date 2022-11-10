@@ -21,11 +21,14 @@
 
             <div class="mallSearch">
 {#                <form action="{% url commodity:commodity %}" method="get" class="layui-form" novalidate>#}
+                <form action="" method="get" class="layui-form" novalidate>
+                  <form action="" method="get" class="layui-form" novalidate>
                     <input type="text" name="n" required lay-verify="required" autocomplete="off" class="layui-input"
                            placeholder="请输入需要的商品">
                     <button class="layui-btn" lay-submit lay-filter="formDemo">
                         <i class="layui-icon layui-icon-search"></i>
                     </button>
+                    </form>
                 </form>
             </div>
         </div>
@@ -45,11 +48,11 @@
                             {% if classContent == 'commoditys' %} class="active"{% endif %}>
                         所有商品
                     </a>
-{#                    <a href="{% url 'shoper:shopcarts' %}"#}
+                    <a href="{% url 'shopper:shopcart' %}"
                             {% if classContent == 'shopcarts' %} class="active"{% endif %}>
                         购物车
                     </a>
-{#                    <a href="{% url 'shoper:shoper' %}"#}
+                    <a href="{% url 'shopper:shopper' %}"
                             {% if classContent == 'infomations' %} class="active"{% endif %}>
                         个人中心
                     </a>

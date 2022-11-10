@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.views.generic import TemplateView
 from commodity.models import *
 
-
+# locals() 函数会以字典类型返回当前位置的全部局部变量
 # def indexView(request):
 #     title = '首页'
 #     classContent = ''
@@ -46,3 +46,8 @@ class indexClassView(TemplateView):
         pass
         context = self.get_context_data(**kwargs)
         return self.render_to_response(context)
+
+
+
+def index1(request):
+    return render(request, 'index1.html', locals())

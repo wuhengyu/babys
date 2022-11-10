@@ -9,4 +9,5 @@ from .views import *
 
 urlpatterns = [
     path('', indexClassView.as_view(), name='index'),
+    path('index1', index1, name='index1')
 ]

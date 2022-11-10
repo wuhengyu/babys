@@ -41,8 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'index',
     'commodity',
-    'shopper'
-    # 'mydefined',
+    'shopper',
+    # 自定义模板标签
+    'mydefined',
 ]
 
 MIDDLEWARE = [
@@ -69,6 +70,10 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'libraries': {
+                'mytags': 'mydefined.mytags',
+
+            }
         },
     },
 ]
@@ -89,7 +94,7 @@ DATABASES = {
         'NAME': 'babys',
         'USER': 'root',
         'PASSWORD': '123456',
-        'HOST': '192.168.195.143',
+        'HOST': '192.168.195.150',
         'PORT': '3306',
 
     }
@@ -131,7 +136,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+STATIC_ROOT = os.path.join(BASE_DIR, 'AllStatic')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
